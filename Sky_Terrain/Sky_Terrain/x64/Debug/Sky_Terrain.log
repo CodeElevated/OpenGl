@@ -1,0 +1,3 @@
+﻿  Main.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Sky_Terrain.vcxproj -> C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\x64\Debug\Sky_Terrain.exe
