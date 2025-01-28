@@ -104,7 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\GLM\glm;C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\GLAD\include;C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\STB;C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -121,7 +121,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Admin\Downloads\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\GLM\glm;C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\GLAD\include;C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\STB;C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Dependecies\GLFW\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,7 +133,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Dependecies\GLAD\src\glad.c" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="shaderClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.frag" />
+    <None Include="default.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

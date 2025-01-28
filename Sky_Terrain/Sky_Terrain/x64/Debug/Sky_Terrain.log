@@ -1,3 +1,5 @@
 ﻿  Main.cpp
-LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\Sky_Terrain\shaderClass.h(108,55): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  (compiling source file 'Main.cpp')
+  
   Sky_Terrain.vcxproj -> C:\Users\Admin\Documents\myfolder\OpenGl\OpenGl\Sky_Terrain\x64\Debug\Sky_Terrain.exe
